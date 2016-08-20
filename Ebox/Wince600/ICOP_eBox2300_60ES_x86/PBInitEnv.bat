@@ -1,0 +1,105 @@
+@echo off
+
+REM Initial environment configuration
+
+set _PB_INSTALL_ROOT=C:\PROGRA~1\MI0D56~1\6.00
+set USING_PB_WORKSPACE_ENVIRONMENT=1
+set _WINCEROOT=C:\WINCE600
+set _FLATRELEASEDIR=C:\WINCE600\OSDesigns\EboxWinCE\Ebox\RelDir\ICOP_eBox2300_60ES_x86_Release
+set LOCALE=0409
+set _PROJECTROOT=C:\WINCE600\OSDesigns\EboxWinCE\Ebox\Wince600\ICOP_eBox2300_60ES_x86
+
+REM Workspace and configuration variables
+
+set PBWORKSPACE=C:\WINCE600\OSDesigns\EboxWinCE\Ebox\Ebox.pbxml
+set PBWORKSPACEROOT=C:\WINCE600\OSDesigns\EboxWinCE\Ebox
+set PBCONFIG=ICOP_eBox2300_60ES X86 Release
+
+REM Call wince.bat
+
+call C:\WINCE600\public\COMMON\OAK\MISC\wince.bat x86 Ebox ICOP_eBox2300_60ES
+
+REM Make sure all build options are turned off
+
+set IMGNODEBUGGER=
+set IMGNOKITL=
+set IMGEBOOT=
+set IMGFLASH=
+set IMGPROFILER=
+set IMGCELOGENABLE=
+set IMGAUTOFLUSH=
+set IMGOSCAPTURE=
+set BUILDREL_USE_COPY=
+set WINCESHIP=
+set IMGRAM64=
+set IMGHDSTUB=
+
+REM Anchored features
+
+set SYSGEN_CURSOR=1
+set SYSGEN_IABASE=1
+set SYSGEN_NOTIFY=1
+set SYSGEN_PM=1
+set SYSGEN_SHELL=1
+set SYSGEN_ETHERNET=1
+set SYSGEN_MODEM=1
+set SYSGEN_PPP=1
+set SYSGEN_PPTP=1
+set SYSGEN_RDP_AUDIO=1
+set SYSGEN_RDP_CLIPBOARD=1
+set SYSGEN_RDP=1
+set SYSGEN_RDP_LICINFO=1
+set SYSGEN_RDP_UI=1
+set SYSGEN_PWORD=1
+set SYSGEN_IPSEC=1
+set SYSGEN_NETUTILS=1
+set SYSGEN_L2TP=1
+set SYSGEN_PPP_SERVER=1
+set SYSGEN_HTTP_PROXY=1
+set SYSGEN_TELNETD=1
+set SYSGEN_USB_HID_KEYBOARD=1
+set SYSGEN_CERDISP=1
+set SYSGEN_FSRAMROM=1
+set SYSGEN_FSREGRAM=1
+set SYSGEN_LASS=1
+set SYSGEN_LAP_PSWD=1
+set SYSGEN_CONSOLE=1
+set SYSGEN_STANDARDSHELL=1
+set SYSGEN_ETH_80211=1
+set SYSGEN_WCELOAD=1
+
+REM BSP features
+
+set IMGRAM128=1
+set SYSGEN_SERDEV=1
+set BSP_SERIAL=1
+set SYSGEN_SERDEV=1
+set BSP_SERIAL=1
+set BSP_SERIAL2=1
+set BSP_VORTEX86_DISPLAY=1
+set BSP_VORTEX86_DISPLAY_800x600x16x60=1
+
+REM Misc settings
+
+set WINCEDEBUG=retail
+set PATH=%PATH%;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft Platform Builder\6.00\cepb\IdeVS
+
+REM Configuration environment variables
+
+
+REM Build options
+
+set IMGEBOOT=1
+set IMGNODEBUGGER=1
+set IMGNOTALLKMODE=1
+set ri_suppress_info=all
+set BUILD_MULTIPROCESSOR=1
+
+REM Project settings
+
+set _USER_SYSGEN_BAT_FILES=C:\WINCE600\OSDesigns\EboxWinCE\Ebox\Initializer\ProjSysgen.bat C:\WINCE600\OSDesigns\EboxWinCE\Ebox\Wince600\ICOP_eBox2300_60ES_x86\OAK\MISC\Ebox.bat
+
+REM Locale options
+
+set IMGNOLOC=0
+set IMGSTRICTLOC=0

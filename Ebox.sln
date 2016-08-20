@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{A9579C99-2FCB-404B-BD28-4858F56A8BA4}") = "Ebox", "Ebox\Ebox.pbxml", "{9033553E-1A82-4BCF-8229-57F8BBB73E6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Platform Builder (_TGTCPU) = Debug|Platform Builder (_TGTCPU)
+		ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU) = ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU)
+		ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU) = ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU)
+		Release|Platform Builder (_TGTCPU) = Release|Platform Builder (_TGTCPU)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.Debug|Platform Builder (_TGTCPU).ActiveCfg = ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.Debug|Platform Builder (_TGTCPU).Build.0 = ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU).ActiveCfg = ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU).Build.0 = ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU).ActiveCfg = ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU).Build.0 = ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.Release|Platform Builder (_TGTCPU).ActiveCfg = ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU)
+		{9033553E-1A82-4BCF-8229-57F8BBB73E6F}.Release|Platform Builder (_TGTCPU).Build.0 = ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.Debug|Platform Builder (_TGTCPU).ActiveCfg = Debug|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.Debug|Platform Builder (_TGTCPU).Deploy.0 = Debug|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU).ActiveCfg = Debug|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.ICOP_eBox2300_60ES X86 Debug|Platform Builder (_TGTCPU).Deploy.0 = Debug|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU).ActiveCfg = Release|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.ICOP_eBox2300_60ES X86 Release|Platform Builder (_TGTCPU).Deploy.0 = Release|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.Release|Platform Builder (_TGTCPU).ActiveCfg = Release|Platform Builder (_TGTCPU)
+		{4BCE8C5F-1C23-4399-AB10-BD1BA538BEBF}.Release|Platform Builder (_TGTCPU).Deploy.0 = Release|Platform Builder (_TGTCPU)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
